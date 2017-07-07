@@ -16,6 +16,7 @@ main {
 
 header {
 	display: flex;
+  flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -24,7 +25,7 @@ h1 {
 	padding: 0 .75rem;
 	font-weight: 100;
 	color: white;
-	font-size: 2rem;
+	font-size: 1.6rem;
 	span {
 		display: block;
 		letter-spacing: .4rem;
@@ -157,4 +158,10 @@ footer {
 	.cell {
 		flex: 0 1 33%;
 	}
+  header {
+    flex-direction: row;
+  }
+  h1 {
+    font-size: 2rem;
+  }
 }
